@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="io.github.arahmandc.android.practice4.TopsectionFragment"
+        android:layout_width="328dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="466dp"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/top_section_fragment"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <fragment
+
+        android:id="@+id/fragment2"
+        android:name="io.github.arahmandc.android.practice4.BottomSectionFragment"
+        android:layout_width="205dp"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="117dp"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/bottom_section_fragment"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+
+</RelativeLayout>
