@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">practise05</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonid">New Button</string>
+    <string name="workout">Work Out Here!</string>
+
+    <string-array name="workout_item">
+        <item>Biceps</item>
+        <item>Shoulder</item>
+        <item>chest</item>
+        <item>Triceps</item>
+    </string-array>
+</resources>
