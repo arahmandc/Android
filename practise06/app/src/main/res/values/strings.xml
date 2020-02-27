@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practise06</string>
+    <string name="action_settings">Settings</string>
+    <string name="green_item">GREEN</string>
+    <string name="blue_item">BLUE</string>
+    <string name="red_item">RED</string>
+</resources>
