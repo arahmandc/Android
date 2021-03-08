@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>  //B48946  00574B
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lima">#B48946</color>
+    <color name="lima2">#9A3AFC</color>
+    <color name="lima3">#005742</color>
+    <color name="lima4">#AB3A57</color>
+
+</resources>
